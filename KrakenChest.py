@@ -1,6 +1,7 @@
 import urllib2
 import json
 from BeautifulSoup import BeautifulSoup
+import sys
 __author__ = 'Jordan'
 
 url = 'http://www.senscritique.com/'
@@ -42,4 +43,4 @@ def getWishes(pseudo):
 
 
 if __name__ == '__main__':
-    getWishes("ClaudiaL")
+    getWishes(sys.argv[1])
