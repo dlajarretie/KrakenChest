@@ -7,4 +7,7 @@ Not available for the privates accounts
 
 HOW TO USE:
 -----------
+
+Make sure you have BeautifulSoup installed. Then :
+
 **python KrakenChest.py [pseudo]**
